@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+Body{
+    background-color:gray;
+    margin:auto;
+    padding: 10px;
+}
+h1{
+
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    text-indent: 20px;
+}
+div{
+    height: 100px;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: gray;
+}
+div>p{
+    display: none;
+}
+div:hover >P{
+    display: block;
+}

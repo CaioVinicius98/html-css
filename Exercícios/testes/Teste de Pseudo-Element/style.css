@@ -1,0 +1,44 @@
+@charset "UTF-8";
+Body{
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
+text-align: justify;
+}
+h1{
+font-size: 3em;
+text-align: center;
+}
+h2{
+    font-size: 1.5em;
+text-indent: 20px;
+background-color: rgb(50, 97, 197);
+color:white;
+border-radius: 10px;
+height:100px;
+padding: 20px;
+margin: auto;
+}
+p{
+text-indent: 20px;
+}
+a{
+text-decoration: none;
+}
+a::before{
+    content:'⇒';
+}
+a::after{
+ content:'⇐';
+}
+a:hover{
+    border-color: black;
+    border-style:groove;
+    background-color: red;
+    color: white;
+}
+a:active{
+color: black;
+}
+a:visited{
+    color: violet;
+}

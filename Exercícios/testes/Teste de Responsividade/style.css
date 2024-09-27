@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+header{
+    background-color: rgb(80, 160, 80);
+    padding: 20px;
+   
+    text-align: center;
+}
+nav{
+    background-color: rgb(33, 116, 33);
+    padding: 20px;
+}
+nav > a{
+    padding:30px;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    margin:auto;
+    min-width: 300px;
+    max-width: 1000px;
+    
+}
+main img.pequena{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+img{
+    width: 100%;
+}

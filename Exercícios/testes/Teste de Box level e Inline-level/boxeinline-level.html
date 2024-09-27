@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+        }
+        main{
+            background-color: white;
+            text-align: justify;
+            border-radius: 5px;
+            padding: 10px;
+            
+        
+        }
+        h1{
+            font-size: 3em;
+            text-align:center;
+        }
+        h1#principal{
+        height: 200px;
+        width: 400px;
+        border-radius:5px;
+        border: 5px groove gray;
+        
+        padding: 10px;
+
+        margin: 20px auto 40px auto;
+    
+
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        a:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+        a::after{
+            content:'✦';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Esses são os exemplos de Box e Inline Level</h1>
+        <h1 id="principal">Box level</h1>
+        <p>inline-level <a href="#">LINK</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae culpa dicta tempora dolore, sapiente, fugiat laboriosam quis, maiores non optio eveniet est nostrum doloribus. Ipsam, voluptatum obcaecati! Voluptatem, vel.</p>
+    </main>
+</body>
+</html>
